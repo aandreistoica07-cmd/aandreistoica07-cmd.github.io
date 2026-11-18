@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Taberna El Cierzo, proyecto de muestra: landing ficticia de un bar de tapas en Zaragoza. No es un negocio real.">
+  <title>Taberna El Cierzo — Proyecto de muestra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="site-top">
+  <div class="sample-bar" role="note">
+    Proyecto de muestra — negocio ficticio
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#inicio">
+        <span class="logo-mark" aria-hidden="true">EC</span>
+        <span class="logo-text">
+          <strong>Taberna El Cierzo</strong>
+          <span>Zaragoza</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="sr-only">Abrir menú</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav id="menu-principal" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#carta">Carta</a></li>
+          <li><a href="#horario">Horario</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#opiniones">Opiniones</a></li>
+          <li><a class="btn btn-nav" href="#reservas">Reservar mesa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  </div>
+
+  <main id="contenido">
+    <section id="inicio" class="hero">
+      <img
+        class="hero-img"
+        src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1920&q=80"
+        alt="Barra de madera de una taberna, con taburetes, botellas y pizarras de carta."
+        width="1920"
+        height="1280">
+      <div class="hero-overlay"></div>
+      <div class="wrap hero-copy">
+        <p class="eyebrow">Tapas y vino en Zaragoza</p>
+        <h1>El sabor de Zaragoza, con el cierzo de fondo</h1>
+        <p class="lead">Taberna ficticia de tapas y vinos del Ebro. Un proyecto de muestra para portfolio.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#reservas">Reservar por WhatsApp</a>
+          <a class="btn btn-ghost" href="#carta">Ver la carta</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="wrap intro-grid">
+        <div class="intro-text">
+          <p class="eyebrow">La taberna</p>
+          <h2>Platos para compartir y una copa bien servida</h2>
+          <p>El Cierzo es un local inventado, pensado como ejemplo de landing para un bar de barrio: carta corta, reservas sencillas y un tono cercano.</p>
+          <p>La cocina —de ficción— se centra en tapas clásicas, ibéricos y vinos de la tierra. Nada de lo que ves aquí existe como negocio real.</p>
+        </div>
+        <figure class="intro-photo">
+          <img
+            src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Camarero sirviendo una ensalada y tostas de tomate en un comedor."
+            width="1200"
+            height="800">
+          <figcaption>Ambiente de sala. Foto de stock, no del local.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="carta" class="carta">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Para picar</p>
+          <h2>Carta destacada</h2>
+          <p>Una selección corta, con precios de ejemplo. En un proyecto real se actualizaría con el menú del cliente.</p>
+        </header>
+
+        <div class="carta-layout">
+          <div class="menu">
+            <h3>Tapas y raciones</h3>
+            <ul class="menu-list">
+              <li><span class="dish"><strong>Patatas bravas</strong><span>Con alioli y salsa de pimentón</span></span><span class="price">5,50 €</span></li>
+              <li><span class="dish"><strong>Croquetas de jamón</strong><span>Seis unidades, cremosas</span></span><span class="price">7,00 €</span></li>
+              <li><span class="dish"><strong>Huevos rotos con foie</strong><span>Patata fina y foie de pato</span></span><span class="price">9,50 €</span></li>
+              <li><span class="dish"><strong>Salmorejo</strong><span>Con huevo y virutas de jamón</span></span><span class="price">6,00 €</span></li>
+              <li><span class="dish"><strong>Tabla de ibéricos</strong><span>Jamón, lomo y chorizo de bellota</span></span><span class="price">14,00 €</span></li>
+              <li><span class="dish"><strong>Calamares a la romana</strong><span>Con limón y alioli</span></span><span class="price">10,00 €</span></li>
+              <li><span class="dish"><strong>Tortilla de bacalao</strong><span>Jugosa, porciones para compartir</span></span><span class="price">8,50 €</span></li>
+              <li><span class="dish"><strong>Chistorra a la sidra</strong><span>De la casa, con pan de pueblo</span></span><span class="price">7,50 €</span></li>
+            </ul>
+            <h3>La barra</h3>
+            <ul class="menu-list">
+              <li><span class="dish"><strong>Vino de la casa</strong><span>Copa, tinto o blanco</span></span><span class="price">2,50 €</span></li>
+              <li><span class="dish"><strong>Caña</strong><span>Tirada, bien fría</span></span><span class="price">2,20 €</span></li>
+            </ul>
+          </div>
+          <aside class="carta-aside">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80"
+                alt="Varias copas de vino tinto brindando en una mesa."
+                width="1200"
+                height="800">
+              <figcaption>Vinos de la casa. Foto de stock.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1200&q=80"
+                alt="Coctelera sirviendo un combinado con hielo y piel de cítrico."
+                width="1200"
+                height="800">
+              <figcaption>La barra, al atardecer. Foto de stock.</figcaption>
+            </figure>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-info" aria-label="Horario y ubicación">
+      <div class="wrap split-grid">
+        <article id="horario" class="info-card">
+          <p class="eyebrow">Cuándo</p>
+          <h2>Horario</h2>
+          <table class="hours">
+            <caption class="sr-only">Horario de apertura de la taberna (de ejemplo)</caption>
+            <tbody>
+              <tr><th scope="row">Lunes</th><td>Cerrado</td></tr>
+              <tr><th scope="row">Martes a jueves</th><td>13:00–16:00 y 20:00–23:30</td></tr>
+              <tr><th scope="row">Viernes y sábado</th><td>13:00–16:30 y 20:00–00:30</td></tr>
+              <tr><th scope="row">Domingo</th><td>13:00–16:30</td></tr>
+            </tbody>
+          </table>
+          <p class="note">Horario de ejemplo, inventado para esta muestra.</p>
+        </article>
+
+        <article id="ubicacion" class="info-card">
+          <p class="eyebrow">Dónde</p>
+          <h2>Ubicación</h2>
+          <p class="address">
+            Calle de la Imaginaria, 7<br>
+            50001 Zaragoza<br>
+            <em>Dirección ficticia</em>
+          </p>
+          <p>En un barrio céntrico inventado, a un paso de un casco histórico que tampoco es real en esta web.</p>
+          <div class="map-placeholder" role="img" aria-label="Mapa de muestra. No corresponde a una dirección real.">
+            <span>Mapa de muestra</span>
+            <small>Sin ubicación real — negocio ficticio</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="reservas" class="reservas">
+      <div class="wrap reservas-grid">
+        <div>
+          <p class="eyebrow">Mesa</p>
+          <h2>Reservas por WhatsApp</h2>
+          <p>En un proyecto real, el botón abriría un chat de WhatsApp con el local. Aquí no se envía ningún mensaje: el número es de muestra y el botón solo abre un aviso.</p>
+          <p class="contact-fake">
+            <span>Teléfono de muestra: 600 00 00 00</span>
+            <span>Correo de muestra: reservas@tabernaelcierzo.ejemplo</span>
+          </p>
+          <button class="btn btn-primary" type="button" data-open-sample="reserva">Reservar por WhatsApp</button>
+        </div>
+        <figure class="reservas-photo">
+          <img
+            src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Grupo de amigos brindando con vino en una mesa de bar."
+            width="1200"
+            height="800">
+        </figure>
+      </div>
+    </section>
+
+    <section id="opiniones" class="reviews">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Lo que dirían</p>
+          <h2>Opiniones de ejemplo</h2>
+          <p>Textos inventados para mostrar cómo quedaría este bloque. No son reseñas reales.</p>
+        </header>
+        <ul class="review-grid">
+          <li class="review">
+            <p class="review-tag">Reseña de ejemplo</p>
+            <blockquote>
+              <p>«Las bravas y el trato, imbatibles.»</p>
+              <footer>— Marta G.</footer>
+            </blockquote>
+          </li>
+          <li class="review">
+            <p class="review-tag">Reseña de ejemplo</p>
+            <blockquote>
+              <p>«Volveremos por la tabla de ibéricos.»</p>
+              <footer>— Luis P.</footer>
+            </blockquote>
+          </li>
+          <li class="review">
+            <p class="review-tag">Reseña de ejemplo</p>
+            <blockquote>
+              <p>«Local con encanto y buena carta de vinos.»</p>
+              <footer>— Ana R.</footer>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-mark"><strong>Taberna El Cierzo</strong> · Zaragoza</p>
+      <p>Proyecto de muestra — negocio ficticio. No es un establecimiento real. Diseño de muestra para el portfolio de Alex Andrei Stoica.</p>
+      <p class="footer-legal">Fotos de Unsplash y Pexels, usadas como stock. Sin teléfono, correo ni dirección reales.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="aviso-muestra" hidden>
+    <div class="modal-backdrop" data-close-sample></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="aviso-titulo">
+      <h2 id="aviso-titulo">Proyecto de muestra</h2>
+      <p>Este botón simula una reserva por WhatsApp. No se envía ningún mensaje y el número 600 00 00 00 no es real.</p>
+      <button class="btn btn-primary" type="button" data-close-sample>Entendido</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
